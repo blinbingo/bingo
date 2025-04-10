@@ -112,15 +112,17 @@ export default function Simulador() {
       {cartelas.length === 0 ? (
         <div className="card">
           <h2>Quantas cartelas deseja gerar?</h2>
-          <input
-            type="number"
-            value={quantidadeCartelas}
-            onChange={(e) => setQuantidadeCartelas(parseInt(e.target.value))}
-          />
-          <br />
-          <button onClick={() => setCartelas(gerarCartelas(quantidadeCartelas))}>
-            Gerar Cartelas
-          </button>
+<input
+  type="number"
+  min="1"
+  value={quantidadeCartelas}
+  onChange={(e) => setQuantidadeCartelas(e.target.value)}
+/>
+<br />
+<button className="generate-button" onClick={gerarCartelas}>
+  🎟️ Gerar Cartelas
+</button>
+
         </div>
       ) : (
         <>
