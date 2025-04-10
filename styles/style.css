@@ -42,5 +42,37 @@ body,
   color: black;
   box-shadow: 0 0 20px #39FF14;
 }
+input[type="number"] {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  width: 150px;
+}
+
+input[type="number"]::placeholder {
+  color: #aaa;
+}
+
+.generate-button {
+  background-color: black;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+.generate-button:hover {
+  box-shadow: 0 0 12px #00ff00;
+}
+
 
 
