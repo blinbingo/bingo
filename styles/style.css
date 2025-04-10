@@ -17,45 +17,31 @@ body,
 
 .card {
   background-color: rgba(255, 255, 255, 0.05);
-  border: 3px solid #39FF14;
-  box-shadow: 0 0 20px #39FF14;
+  border: 2px solid #00ff00;
+  box-shadow: 0 0 20px #00ff00;
   padding: 40px;
-  border-radius: 12px;
+  border-radius: 15px;
   text-align: center;
 }
 
-.button {
+button,
+.generate-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
   background-color: transparent;
-  padding: 12px 24px;
-  border: 2px solid #39FF14;
-  border-radius: 6px;
-  font-weight: bold;
-  color: #39FF14;
-  cursor: pointer;
-  transition: 0.3s;
-  margin: 8px;
-  box-shadow: 0 0 10px #39FF14;
-}
-
-.button:hover {
-  background-color: #39FF14;
-  color: black;
-  box-shadow: 0 0 20px #39FF14;
-}
-input[type="number"] {
-  background-color: rgba(0, 0, 0, 0.4);
+  color: #00ff00;
   border: 2px solid #00ff00;
   border-radius: 8px;
-  padding: 8px 12px;
-  color: white;
-  font-size: 16px;
-  text-align: center;
-  outline: none;
-  width: 150px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ff00;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-input[type="number"]::placeholder {
-  color: #aaa;
+button:hover,
+.generate-button:hover {
+  background-color: #00ff00;
+  color: #000;
 }
 
 .input-neon {
@@ -67,26 +53,26 @@ input[type="number"]::placeholder {
   border-radius: 8px;
   outline: none;
   box-shadow: 0 0 10px #00ff00;
-}
-
-.generate-button {
   margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: transparent;
-  color: #00ff00;
-  border: 2px solid #00ff00;
-  border-radius: 8px;
-  cursor: pointer;
+}
+
+.ranking,
+.premiadas {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #00ff00;
+  margin: 20px 0;
   box-shadow: 0 0 10px #00ff00;
-  transition: background-color 0.3s ease;
 }
 
-.generate-button:hover {
-  background-color: #00ff00;
-  color: #000;
+.bola-sorteada {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #00ff00;
+  box-shadow: 0 0 10px #00ff00;
 }
-
-
-
-
