@@ -25,16 +25,22 @@ body,
 }
 
 .button {
-  background-color: #39FF14;
+  background-color: transparent;
   padding: 12px 24px;
-  border: none;
+  border: 2px solid #39FF14;
   border-radius: 6px;
   font-weight: bold;
-  color: #000;
+  color: #39FF14;
   cursor: pointer;
   transition: 0.3s;
+  margin: 8px;
+  box-shadow: 0 0 10px #39FF14;
 }
-.card h1 {
-  margin-bottom: 20px;
+
+.button:hover {
+  background-color: #39FF14;
+  color: black;
+  box-shadow: 0 0 20px #39FF14;
 }
+
 
