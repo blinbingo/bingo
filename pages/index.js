@@ -7,7 +7,7 @@ export default function Home() {
       <div className="card">
         <h1>Bem-vindo ao Bingo do Blindado</h1>
         <Link href="/simulador">
-          <button className="button">🎯 Jogar</button>
+          <button className="button">🎯 CRIAR SORTEIO</button>
         </Link>
       </div>
     </div>
