@@ -1,5 +1,4 @@
 import Link from "next/link";
-import "../public/style.css"; // garante que o CSS global seja aplicado
 
 export default function Home() {
   return (
