@@ -58,21 +58,35 @@ input[type="number"]::placeholder {
   color: #aaa;
 }
 
+.input-neon {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #00ff00;
+  background-color: #0f172a;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 0 10px #00ff00;
+}
+
 .generate-button {
-  background-color: black;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
   color: #00ff00;
   border: 2px solid #00ff00;
   border-radius: 8px;
-  padding: 8px 16px;
-  margin-top: 10px;
   cursor: pointer;
-  font-size: 16px;
-  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 10px #00ff00;
+  transition: background-color 0.3s ease;
 }
 
 .generate-button:hover {
-  box-shadow: 0 0 12px #00ff00;
+  background-color: #00ff00;
+  color: #000;
 }
+
 
 
 
