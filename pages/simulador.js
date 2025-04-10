@@ -132,12 +132,22 @@ export default function Simulador() {
                   <div key={i} className="bola">{n}</div>
                 ))}
               </div>
-              <button onClick={sortearBola} disabled={sorteando}>Sortear Bola</button>
-              <button onClick={iniciarSorteioAte100} disabled={sorteando}>
-                Sortear até 100%
-              </button>
-              <button onClick={exportarExcel}>Exportar Cartelas</button>
-              <Link href="/"><button>Voltar ao menu</button></Link>
+              <button className="button" onClick={sortearBola} disabled={sorteando}>
+  Sortear Bola
+</button>
+
+<button className="button" onClick={iniciarSorteioAte100} disabled={sorteando}>
+  Sortear até 100%
+</button>
+
+<button className="button" onClick={exportarExcel}>
+  Exportar Cartelas
+</button>
+
+<Link href="/">
+  <button className="button">Voltar ao menu</button>
+</Link>
+
             </div>
             <div style={{ flex: 1 }}>
               <h2>Ranking - Quem está mais perto de ganhar</h2>
