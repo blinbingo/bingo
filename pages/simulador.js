@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as XLSX from "xlsx";
-import "../styles/style.css";
+import styles from "../styles/style.module.css";
+
 
 const gerarCartela = (id) => {
   const numeros = new Set();
