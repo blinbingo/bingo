@@ -17,7 +17,7 @@ const styles = {
   body: {
     height: "100vh",
     margin: 0,
-    background: "linear-gradient(135deg, #14532d, #22c55e)",
+    background: "linear-gradient(135deg, #0f172a, #14532d)",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -27,7 +27,7 @@ const styles = {
     backgroundColor: "rgba(255, 255, 255, 0.05)",
     padding: "40px",
     borderRadius: "12px",
-    border: "3px solid #39FF14", // verde neon
+    border: "3px solid #39FF14",
     boxShadow: "0 0 20px #39FF14",
     textAlign: "center",
   },
@@ -48,3 +48,4 @@ const styles = {
     transition: "0.3s",
   },
 };
+
