@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #00ff88;
+}
+
+#controls, #bingo, #dashboard, #cartelas-container {
+  margin-bottom: 30px;
+}
+
+#bolas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.bola {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.bola.sorteada {
+  background-color: #00ff88;
+  color: #000;
+  cursor: not-allowed;
+}
+
+.bola.bola-boa {
+  background-color: gold !important;
+  color: black !important;
+}
+
+.cartela {
+  border: 1px solid #888;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  background-color: #1e1e1e;
+}
+
+.cartela-premiada {
+  border: 2px solid gold;
+}
+
+#cartelas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  background-color: #00ff88;
+  border: none;
+  padding: 10px 15px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #00cc66;
+}
