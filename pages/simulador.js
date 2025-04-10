@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "../styles/style.module.css";
-import XLSX from "sheetjs-style";
+import * as XLSX from "xlsx";
 
 export default function Simulador() {
   const [quantidadeCartelas, setQuantidadeCartelas] = useState(1);
