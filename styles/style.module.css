@@ -13,66 +13,48 @@ body,
   align-items: center;
   font-family: Arial, sans-serif;
   color: white;
+  flex-direction: column;
 }
 
 .card {
   background-color: rgba(255, 255, 255, 0.05);
-  border: 2px solid #00ff00;
-  box-shadow: 0 0 20px #00ff00;
-  padding: 40px;
-  border-radius: 15px;
+  padding: 2rem;
+  border: 2px solid #00ff84;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #00ff84;
   text-align: center;
 }
 
-button,
-.generate-button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.button {
   background-color: transparent;
-  color: #00ff00;
-  border: 2px solid #00ff00;
-  border-radius: 8px;
-  cursor: pointer;
-  box-shadow: 0 0 10px #00ff00;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-button:hover,
-.generate-button:hover {
-  background-color: #00ff00;
-  color: #000;
-}
-
-.input-neon {
-  padding: 10px;
-  font-size: 16px;
-  border: 2px solid #00ff00;
-  background-color: #0f172a;
-  color: white;
-  border-radius: 8px;
-  outline: none;
-  box-shadow: 0 0 10px #00ff00;
-  margin-top: 10px;
-}
-
-.ranking,
-.premiadas {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 20px;
+  border: 2px solid #00ff84;
+  color: #00ff84;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
   border-radius: 10px;
-  border: 1px solid #00ff00;
-  margin: 20px 0;
-  box-shadow: 0 0 10px #00ff00;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
 }
 
-.bola-sorteada {
-  display: inline-block;
-  margin: 5px;
-  padding: 10px;
-  border-radius: 50%;
-  background-color: #222;
-  color: #fff;
-  border: 2px solid #00ff00;
-  box-shadow: 0 0 10px #00ff00;
+.button:hover {
+  background-color: #00ff84;
+  color: #0f172a;
+  box-shadow: 0 0 10px #00ff84;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #00ff84;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  outline: none;
 }
