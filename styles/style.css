@@ -34,3 +34,7 @@ body,
   cursor: pointer;
   transition: 0.3s;
 }
+.card h1 {
+  margin-bottom: 20px;
+}
+
