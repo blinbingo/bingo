@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div className={styles.body}>
       <div className={styles.card}>
-        <h1 className={styles.title}>Bem-vindo ao Bingo do Blindado</h1>
+        <h1>Bem-vindo ao Bingo do Blindado</h1>
         <Link href="/simulador">
-          <button className={styles.button}>🎯 Jogar</button>
+          <button className={styles.generateButton}>🎮 Jogar</button>
         </Link>
       </div>
     </div>
