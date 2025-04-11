@@ -1,29 +1,53 @@
-.generate-button {
-  background: transparent;
-  border: 2px solid #39ff14;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin-top: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.generate-button:hover {
-  background: #39ff14;
+.body {
+  background: linear-gradient(135deg, #0f172a, #14532d);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #00ff88;
+  box-shadow: 0 0 20px #00ff88;
+}
+
+.generateButton {
+  background: transparent;
+  border: 2px solid #00ff88;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ff88;
+  transition: all 0.3s ease;
+}
+
+.generateButton:hover {
+  background: #00ff88;
   color: black;
 }
 
-.input-neon {
-  background-color: transparent;
-  border: 2px solid #39ff14;
-  padding: 10px;
+.inputNeon {
+  padding: 8px;
+  border: 2px solid #00ff88;
+  border-radius: 8px;
+  background: #0f172a;
   color: white;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 16px;
   outline: none;
-  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
