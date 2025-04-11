@@ -1,56 +1,23 @@
-
-
-body,
-.body {
-  background: linear-gradient(135deg, #0f172a, #14532d);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
+.generate-button {
+  background: transparent;
+  border: 2px solid #39ff14;
   color: white;
-  flex-direction: column;
-}
-
-.card {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 2rem;
-  border: 2px solid #00ff84;
-  border-radius: 16px;
-  box-shadow: 0 0 20px #00ff84;
-  text-align: center;
-}
-
-.title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.button {
-  background-color: transparent;
-  border: 2px solid #00ff84;
-  color: #00ff84;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+  padding: 10px 20px;
   border-radius: 10px;
+  font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 1rem;
 }
 
-.button:hover {
-  background-color: #00ff84;
-  color: #0f172a;
-  box-shadow: 0 0 10px #00ff84;
+.generate-button:hover {
+  background: #39ff14;
+  color: black;
 }
 
-.input {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid #00ff84;
+.input-neon {
+  background-color: #0f172a;
+  border: 2px solid #39ff14;
+  padding: 10px;
   color: white;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
   border-radius: 10px;
-  margin-top: 0.5rem;
-  outline: none;
 }
