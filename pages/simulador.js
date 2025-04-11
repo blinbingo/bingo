@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import styles from "../styles/style.module.css";
+import "../styles/style.css";
 
 export default function Simulador() {
   const [cartelas, setCartelas] = useState([]);
-  const [quantidadeCartelas, setQuantidadeCartelas] = useState(1);
+  const [quantidadeCartelas, setQuantidadeCartelas] = useState(0);
 
   const gerarCartelas = () => {
     const novasCartelas = [];
@@ -28,16 +28,15 @@ export default function Simulador() {
             min="1"
             value={quantidadeCartelas}
             onChange={(e) => setQuantidadeCartelas(e.target.value)}
-            className={styles["input-neon"]}
           />
           <br />
-          <button className={styles["generate-button"]} onClick={gerarCartelas}>
+          <button className="generate-button" onClick={gerarCartelas}>
             🎯 Gerar Cartelas
           </button>
         </div>
       ) : (
         <div>
-          {/* Exibição das cartelas geradas aqui */}
+          {/* Aqui continua o restante do simulador */}
         </div>
       )}
     </div>
